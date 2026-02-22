@@ -39,8 +39,8 @@ Clone the repo:
 git clone https://github.com/YOUR_USERNAME/macroeconomic-etl.git
 cd macroeconomic-etl
 ```
-Set up the environment:
 
+Set up the environment:
 
 python -m venv venv
 source venv/bin/activate
@@ -53,10 +53,15 @@ Execute the Pipeline:
 ```Bash
 python main.py
 ```
+
 Launch Dashboard:
 
 ```Bash
 streamlit run src/dashboard.py
 ```
+
 👨‍💻 About the Author
 Jose Cabrera Programmer | Economist Passionate about bridging the gap between data engineering and economic strategy.
+![Dashboard Preview](./assets/macro_dashboard.png)
+![Dashboard Preview](./assets/macro_raw_merged_data.png)
+![Dashboard Preview](./assets/raw_data_analysis.png)
