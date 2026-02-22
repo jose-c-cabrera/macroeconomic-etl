@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Virtual Environment
+venv/
+env/
+
+# Data (Since it's large and regeneratable)
+data/raw/
+data/processed/
+
+# Python Cache
+__pycache__/
+*.pyc
