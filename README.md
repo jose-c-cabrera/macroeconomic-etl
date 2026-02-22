@@ -35,12 +35,13 @@ Interactive Dashboard: A dual-axis visualization that allows stakeholders to com
 🚀 How to Run Locally
 Clone the repo:
 
-Bash
+```Bash
 git clone https://github.com/YOUR_USERNAME/macroeconomic-etl.git
 cd macroeconomic-etl
+```
 Set up the environment:
 
-Bash
+
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -49,11 +50,13 @@ Create a .env file and add your FRED_API_KEY and DB_PASSWORD.
 
 Execute the Pipeline:
 
-Bash
+```Bash
 python main.py
+```
 Launch Dashboard:
 
-Bash
+```Bash
 streamlit run src/dashboard.py
+```
 👨‍💻 About the Author
 Jose Cabrera Programmer | Economist Passionate about bridging the gap between data engineering and economic strategy.
